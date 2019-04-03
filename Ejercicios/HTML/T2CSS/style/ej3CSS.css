@@ -1,15 +1,19 @@
-#listaSin{
+div#listaSin ul {
     list-style: none;
 }
-#circleList{
+
+div#circleList ul {
     list-style: circle;
 }
-#squareList{
-    list-style: square;
+
+div#squareList ul {
+    list-style-type: square;
 }
-#romanList{
+
+div#romanList ol {
     list-style-type: lower-roman;
 }
-#gregList{
+
+div#gregList ol {
     list-style-type: georgian;
 }
