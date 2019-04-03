@@ -1,0 +1,18 @@
+#container{
+    background: beige;
+}
+
+.main-heading.heading{
+    color: rgb(173, 75, 75);
+    font-size: 50px;
+    font-stretch: extra-expanded;
+}
+
+.heading{
+    color: rgb(72, 143, 167);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+[lang="es"]{
+    font-size: 30px;
+}

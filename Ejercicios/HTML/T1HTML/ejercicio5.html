@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main>
+        <form action="" method="GET">
+            <h1>Formulario de registro</h1>
+            <p><label for="nombre">Nombre: </label>
+                <input id="nombre" type="text">
+            </p>
+
+            <p><label for="apellidos">Apellidos: </label>
+                <input id="apellidos" type="text">
+            </p>
+
+            <p><label for="hembra">Sexo: </label>
+                <input type="radio" id="macho" name="sexo" value="hombre"> Hombre
+                <input type="radio" id="hembra" name="sexo" value="mujer" checked> Mujer
+            </p>
+
+            <p><label for="emilio">Correo Electrónico: </label>
+                <input type="email" name="email" id="emilio">
+            </p>
+
+            <p>
+                <label for="dropPoblacion">Población: </label>
+                <select id="dropPoblacion">
+                    <option value="alicante">Alicante</option>
+                    <option value="elche">Elche</option>
+                    <option value="elda">Elda</option>
+                    <option value="petrer">Petrer</option>
+                </select>
+            </p>
+
+            <p><label for="descrip">Descripción: </label>
+                <textarea name="" id="" cols="80" rows="10"></textarea>
+            </p>
+            
+            <p>
+                <input type="checkbox" id="info" name="checkInformacion" value="hombre">
+                Deseo recibir información sobre novedades y ofertas. <br>
+                <input type="checkbox" id="terminos" name="checkTerminos" value="mujer">
+                Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de
+                datos<br>
+            </p>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>

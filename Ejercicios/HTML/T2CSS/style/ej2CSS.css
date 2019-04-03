@@ -1,0 +1,44 @@
+/* Trabajamos los colores del texto mediante id's en cada row (id unica) */
+#tealRow{
+    color:teal;
+}
+#redRow{
+    color:red;
+}
+#blueRow{
+    color:blue;
+}
+#orangeRow{
+    color:orange;
+}
+#purpleRow{
+    color:purple;
+}
+#oliveRow{
+    color:olive;
+}
+#fuchsiaRow{
+    color:fuchsia;
+}
+#greenRow{
+    color:green;
+}
+
+/* #tealRow td:nth-child(2){
+    background-color: blueviolet
+} */
+
+/* Asignamos un backgroundcolor a cada data de las row para hacer columnas iguales */
+
+.firstCol{
+    background-color: transparent;
+}
+.secondCol{
+    background-color: red;
+}
+.thirdCol{
+    background-color: green;
+}
+.fourthCol{
+    background-color: blue;
+}

@@ -1,0 +1,15 @@
+#listaSin{
+    list-style: none;
+}
+#circleList{
+    list-style: circle;
+}
+#squareList{
+    list-style: square;
+}
+#romanList{
+    list-style-type: lower-roman;
+}
+#gregList{
+    list-style-type: georgian;
+}

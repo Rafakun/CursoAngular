@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario Tipos</title>
+    <style>
+        #formulario {
+            margin: 0 auto;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="formulario">
+        <p><label for="idName">Nombre:</label>
+            <input type="text" name="name" id="idName" autofocus required></p>
+
+        <p><label for="idEmail">Correo Electrónico: </label>
+            <input type="email" name="email" id="idEmail" required></p>
+
+        <p><label for="urlId">URL: </label>
+            <input type="url" maxlength="50" placeholder="Escribe la URL de tu página" name="url" id="urlId"></p>
+
+        <p><label for="idFecha">Fecha: </label>
+            <input type="date" name="fecha" id="idFecha"></p>
+
+        <p><label for="idHora">Hora: </label>
+            <input type="time" name="hora" id="idHora"></p>
+
+        <p><label for="idMes">Mes: </label>
+            <input type="month" name="mes" id="idMes"></p>
+
+        <p><label for="idSemana">Semana: </label>
+            <input type="week" name="semana" id="idSemana"></p>
+
+        <p></p><label for="idNumero">Número: </label>
+        <input type="number" name="numero" id="idNumero" min="-10" max="10"></p>
+
+        <p><label for="idTelefono">Telefono: </label>
+            <input type="tel" name="telefono" id="idTelefono"></p>
+
+        <p><label for="idBusqueda">Término de busqueda: </label>
+            <input type="search" name="buscar" id="idBusqueda"></p>
+
+        <p><label for="idColor">Color Favorito: </label>
+            <input type="color" name="color" id="idColor"></p>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
