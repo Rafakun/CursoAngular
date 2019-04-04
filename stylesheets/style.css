@@ -1,0 +1,17 @@
+* {
+    background-color: #fafafa;
+}
+
+#mainSection > *{
+    background-color: lightcoral;
+    border-radius: 15px 50px 30px 5px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+#mainSection a{
+    background-color: lightcoral;
+    border-radius: 15px 50px 30px 5px;
+    margin: 0 auto;
+    width: 500px;
+}
