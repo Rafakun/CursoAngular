@@ -1,17 +1,30 @@
-* {
+body {
     background-color: #fafafa;
 }
 
-#mainSection > *{
-    background-color: lightcoral;
-    border-radius: 15px 50px 30px 5px;
+#mainsection {
     margin: 0 auto;
     width: 500px;
+    text-align: center;
 }
 
-#mainSection a{
-    background-color: lightcoral;
-    border-radius: 15px 50px 30px 5px;
-    margin: 0 auto;
-    width: 500px;
+img {
+    width: 30%;
+    height: 30%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
