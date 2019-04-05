@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+}
+
+span{
+    text-decoration: underline; 
+    padding: 0.5vw;
+}
+nav a{
+    color: black;
+}
+
+nav a:hover{
+    background-color: grey;
+    color: white;
+    text-decoration: underline;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+article:nth-of-type(odd){
+    background-color: lightgrey;
+}
+
+article{
+    padding: 1vh;
+    padding: 1vw
+}
+
+article:target{
+    border: 2px solid black;
+    background-color: white;
+}
+
+article p::first-letter{
+    font-size: 40px;
+}
+
+article p::first-line{
+    font-weight: bold
+}
+
