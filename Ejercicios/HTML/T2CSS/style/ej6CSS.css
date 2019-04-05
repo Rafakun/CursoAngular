@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+}
+
+nav{
+    width: 20vw;
+    height: 80vh;
+    /* float: left; */
+}
+
+main{
+    width: 60vw;
+    height: 80vh;
+    /* float: left; */
+}
+
+aside{
+    width: 20vw;
+    height: 80vh;
+    /* float: left; */
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+}
+
+@media (max-width: 600px){
+    body{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    nav{
+        width: 100vw;
+        height: auto;
+    }
+    main{
+        width: 100vw;
+        height: 100vh;
+    }
+    aside{
+        width: 100vw;
+        height: auto;
+    }
+}
