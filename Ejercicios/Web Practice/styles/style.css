@@ -1,0 +1,119 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#mainHeader,
+#mainFooter {
+    background: rgba(134, 174, 204, 1);
+    background: -moz-linear-gradient(left, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(134, 174, 204, 1)), color-stop(100%, rgba(212, 228, 239, 1)));
+    background: -webkit-linear-gradient(left, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: -o-linear-gradient(left, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: linear-gradient(to right, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=1);
+}
+
+#mainBody {
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Parte referida a la cabecera de la página */
+#mainHeader {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 5px 5px;
+    text-anchor: end;
+    color: #fafafa;
+}
+
+#navigationList {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+#navigationList a:hover {
+    background-color: #444;
+}
+
+#navigationList a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#mainContent {
+    width: 100%;
+    text-align: center;
+}
+
+#userProfile {
+    border: 3px solid lightblue;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+#headerLogo {
+    width: 150px;
+}
+
+/* Parte referida a las entradas de blog */
+section {
+    /* padding: 1%; */
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+#userProfile_mini {
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+#mainFooter {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px 5px 5px 5px;
+    text-anchor: end;
+    color: #fafafa;
+}
+
+@media (max-width: 600px) {
+    #navigationList {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #headerLogo{
+        display: none;
+    }
+
+    #userProfile{
+        display: none;
+    }
+}

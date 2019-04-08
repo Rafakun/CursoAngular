@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/loginStyle.css">
+    <title>Login - WebPractice</title>
+</head>
+
+<body>
+    <header id="mainHeader">
+        <img src="styles/resources/weblogo.png" id="headerLogo" alt="monkaSL">
+        <h1 id="headerTitle">Web Practice - Rafa Poveda</h1>
+        <div id="perfilBox">
+            <a href="profile.html"><img src="styles/resources/profile-180.jpg" id="userProfile"
+                    alt="Perfil Usuario"></a>
+        </div>
+        <nav id="navigationList">
+            <a href="index.html">Home</a>
+            <a href="post.html">Post</a>
+            <a href="profile.html">Profile</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <div id="loginDiv">
+        <h2>Login - WebPractice</h2>
+        <form id="loginForm" action="index.html" method="POST">
+            <p> <label for="nombreUsr">User:</label>
+                <input type="text" name="UserName" id="nombreUsr" maxlength="20" required autofocus></p>
+
+            <p><label for="passUsr">Password: </label>
+                <input type="text" name="UserPass" id="passUsr" maxlength="20" required></p>
+
+            <input type="submit" value="Login" id="loginForm_Submit">
+        </form>
+    </div>
+    <footer id="mainFooter">
+        <h2>Rafa Poveda García - 2019</h2>
+    </footer>
+</body>
+
+</html>
