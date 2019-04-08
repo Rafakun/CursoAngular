@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/postStyle.css">
+    <title>Post - Web Practice</title>
+</head>
+
+<body>
+    <header id="mainHeader">
+        <img src="styles/resources/weblogo.png" id="headerLogo" alt="monkaSL">
+        <h1 id="headerTitle">Web Practice - Rafa Poveda</h1>
+        <div id="perfilBox">
+            <a href="profile.html"><img src="styles/resources/profile-180.jpg" id="userProfile"
+                    alt="Perfil Usuario"></a>
+        </div>
+        <nav id="navigationList">
+            <a href="index.html">Home</a>
+            <a href="post.html">Post</a>
+            <a href="profile.html">Profile</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main id="mainPost">
+        <form action="/index.html" method="POST">
+            <p><label for="titlePost">
+                    <h3>Post new article</h3>
+                </label>
+                <input type="text" placeholder="Post Title" id="titlePost" required autofocus></p>
+
+            <p><textarea name="TextArea" id="postBody" placeholder="Type your post." cols="30" rows="10"
+                    required></textarea></p>
+
+            <input type="submit" value="Post Article">
+            <a href="index.html"><button>Back</button></a>
+        </form>
+        
+    </main>
+    <footer id="mainFooter">
+        <h2>Rafa Poveda García - 2019</h2>
+    </footer>
+</body>
+
+</html>
