@@ -1,0 +1,32 @@
+			
+			function addParrafo()
+			{
+
+			}
+			
+			function eliminar()
+			{
+
+				
+			}
+			
+			function lanzar()
+			{
+			
+			}
+
+
+			function validar()
+			{
+
+
+				
+				
+			}
+			
+			
+            window.onload = function() {
+				
+
+				
+			};			

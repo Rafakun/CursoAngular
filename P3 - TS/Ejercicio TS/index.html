@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SeriesYonkis</title>
+</head>
+<body>
+    <script src="typescript.js"></script>
+    <div>
+        <span>
+            <label for="lblSerie">Serie:</label>
+            <input type="text" id="lblSerie">
+            <label style="margin-left: 2cm" for="ddlModo">Modo:</label>
+            <select name="desplegable" id="ddlModo">
+                <option value="" default disabled>- -</option>
+                <option value="optLista">Lista</option>
+                <option value="optTabla">Tabla</option>
+            </select><br>
+            <label for="lblCapitulos">Nº Capitulos</label>
+            <input type="number" name="inputCap" id="lblCapitulos" style="width:2cm">
+            <button id="btnGuardar">G</button>
+        </span>
+    </div>
+    <div id="contentObject">
+        
+    </div>
+</body>
+</html>

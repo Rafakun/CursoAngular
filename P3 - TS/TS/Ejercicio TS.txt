@@ -1,0 +1,7 @@
+Teoria
+
+https://softwarecrafters.io/typescript/typescript-javascript-introduccion/
+
+Ejercicios
+
+https://www.codifica.me/ejercicios-basicos-de-typescript-desde-codigo-javascript/
